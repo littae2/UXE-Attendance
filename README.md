@@ -1,10 +1,8 @@
-# SvelteKit Theme Switch
-
-A simple demo for theme switch in SvelteKit.
+# UXE Attendance Project
 
 Uses:
-
-- Tailwind
+- [SvelteKit]
+- [Tailwind]
 - [DaisyUI]
 - [Theme Change]
 - [Tailwind Typography]
@@ -16,3 +14,4 @@ Uses:
 [theme change]: https://github.com/saadeghi/theme-change
 [tailwind typography]:
   https://github.com/tailwindlabs/tailwindcss-typography
+[SvelteKit]: https://kit.svelte.dev/
