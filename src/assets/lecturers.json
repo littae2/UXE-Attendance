@@ -1,0 +1,52 @@
+{
+  "lecturer": [
+    {
+      "name": "Adon Moskal",
+      "code": "AM"
+    },
+    {
+      "name": "Elise Allen",
+      "code": "EA"
+    },
+    {
+      "name": "David Rozado",
+      "code": "DR"
+    },
+    {
+      "name": "Ola Adeleye",
+      "code": "OA"
+    },
+    {
+      "name": "Krissi Wood",
+      "code": "KW"
+    },
+    {
+      "name": "Martin Junek",
+      "code": "MJ"
+    },
+    {
+      "name": "Tom Clark",
+      "code": "TC"
+    },
+    {
+      "name": "Paul Admiraal",
+      "code": "PA"
+    },
+    {
+      "name": "Hamza Bennani",
+      "code": "HB"
+    },
+    {
+      "name": "Grayson Orr",
+      "code": "GO"
+    },
+    {
+      "name": "Vaughn Malkin",
+      "code": "VM"
+    },
+    {
+      "name": "Michael Holtz",
+      "code": "MH"
+    }
+  ]
+}
