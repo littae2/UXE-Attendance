@@ -13,6 +13,6 @@
 
 <div class="bg-primary" id="header-div">
   <h1>{today.toDateString()}</h1>
-  <h1>{semester}</h1>
+  <h1 id ="semester">{semester}</h1>
   <ThemeSelect />
 </div>

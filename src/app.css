@@ -11,3 +11,6 @@
 	color:hsl(var(--nc));
     font-size: xx-large;
 }
+.dropdown .dropdown-content{
+    color:black;
+}

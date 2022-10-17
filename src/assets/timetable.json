@@ -1,304 +1,360 @@
 {
-  "semester": [
-    {
-      "one": {
-        "cohort": {
-          "Studio 1": {
-            "id": "ID502001",
-            "stream": ["A", "B"],
-            "lecturer": ["EA", "VM", "OA"]
-          },
-          "Studio 2": {
-            "id": "ID503001",
-            "stream": ["L"],
-            "lecturer": ["EA", "VM", "OA"]
-          },
-          "Programming 1": {
-            "id": "ID510001",
-            "stream": ["A", "B"],
-            "lecturer": ["KW"]
-          },
-          "Programming 2": {
-            "id": "ID511001",
-            "stream": ["L"],
-            "lecturer": ["GO"]
-          },
-          "Devices and Platforms": {
-            "id": "ID520003",
-            "stream": ["A", "B"],
-            "lecturer": ["PA"]
-          },
-          "Maths for IT": {
-            "id": "ID521001",
-            "stream": ["A", "B"],
-            "lecturer": ["HB"]
-          },
-          "Fundamentals of Web Development": {
-            "id": "ID512002",
-            "stream": ["L"],
-            "lecturer": ["AM"]
-          },
-          "Introduction to Networks": {
-            "id": "ID515001",
-            "stream": ["L"],
-            "lecturer": ["MH"]
-          },
-          "Studio 3": {
-            "id": "ID606001",
-            "stream": ["A"],
-            "lecturer": ["FA", "PA", "MJ"]
-          },
-          "Studio 4": {
-            "id": "ID622001",
-            "stream": ["A"],
-            "lecturer": ["FA", "PA", "MJ"]
-          },
-          "Databases 2": {
-            "id": "ID605001",
-            "stream": ["A"],
-            "lecturer": ["KW"]
-          },
-          "Introductory App Dev": {
-            "id": "ID607001",
-            "stream": ["A"],
-            "lecturer": ["GO"]
-          },
-          "Intermediate App Dev": {
-            "id": "ID608001",
-            "stream": ["A"],
-            "lecturer": ["GO"]
-          },
-          "Operations Engineering 1": {
-            "id": "ID609001",
-            "stream": ["A"],
-            "lecturer": ["OA"]
-          },
-          "Switching, Routing & Wireless": {
-            "id": "ID615008",
-            "stream": ["A"],
-            "lecturer": ["MH"]
-          },
-          "Operating Systems Concepts": {
-            "id": "ID616001",
-            "stream": ["A"],
-            "lecturer": ["HB"]
-          },
-          "Embedded Systems": {
-            "id": "ID620001",
-            "stream": ["A"],
-            "lecturer": ["VM"]
-          },
-          "Intro to Algorithmic Problem Solving": {
-            "id": "ID623001",
-            "stream": ["A"],
-            "lecturer": ["AM"]
-          },
-          "Adv Design Techniques 1": {
-            "id": "DK633101",
-            "stream": ["A"],
-            "lecturer": []
-          },
-          "Adv Design Techniques 2": {
-            "id": "DK633201",
-            "stream": ["A"],
-            "lecturer": []
-          },
-          "Special Topic 1": {
-            "id": "ID630151",
-            "stream": ["A"],
-            "lecturer": []
-          },
-          "Studio 5": {
-            "id": "ID728001",
-            "stream": ["A"],
-            "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
-          },
-          "Studio 6": {
-            "id": "ID732001",
-            "stream": ["A"],
-            "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
-          },
-          "Databases 3": {
-            "id": "ID705001",
-            "stream": ["A"],
-            "lecturer": ["KW"]
-          },
-          "Advanced Networking": {
-            "id": "ID723001",
-            "stream": ["A"],
-            "lecturer": ["MH"]
-          },
-          "Artificial Intelligence & Data Science": {
-            "id": "ID727001",
-            "stream": ["A"],
-            "lecturer": ["DR"]
-          },
-          "Advanced Application Development": {
-            "id": "ID730001",
-            "stream": ["A"],
-            "lecturer": ["MJ"]
-          },
-          "Game Development": {
-            "id": "ID737001",
-            "stream": ["A"],
-            "lecturer": ["AM", "GO"]
-          },
-          "Operations Engineering 2": {
-            "id": "ID734001",
-            "stream": ["A"],
-            "lecturer": ["TC", "OA"]
-          },
-          "Special Topic 2": {
-            "id": "ID730151",
-            "stream": ["A"],
-            "lecturer": []
-          }
+  "semester": {
+    "one": {
+      "cohort": [
+        {
+          "name": "Studio 1",
+          "id": "ID502001",
+          "stream": ["A", "B"],
+          "lecturer": ["EA", "VM", "OA"]
+        },
+        {
+          "name": "Studio 2",
+          "id": "ID503001",
+          "stream": ["L"],
+          "lecturer": ["EA", "VM", "OA"]
+        },
+        {
+          "name": "Programming 1",
+          "id": "ID510001",
+          "stream": ["A", "B"],
+          "lecturer": ["KW"]
+        },
+        {
+          "name": "Programming 2",
+          "id": "ID511001",
+          "stream": ["L"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Devices and Platforms",
+          "id": "ID520003",
+          "stream": ["A", "B"],
+          "lecturer": ["PA"]
+        },
+        {
+          "name": "Maths for IT",
+          "id": "ID521001",
+          "stream": ["A", "B"],
+          "lecturer": ["HB"]
+        },
+        {
+          "name": "Fundamentals of Web Development",
+          "id": "ID512002",
+          "stream": ["L"],
+          "lecturer": ["AM"]
+        },
+        {
+          "name": "Introduction to Networks",
+          "id": "ID515001",
+          "stream": ["L"],
+          "lecturer": ["MH"]
+        },
+        {
+          "name": "Studio 3",
+          "id": "ID606001",
+          "stream": ["A"],
+          "lecturer": ["FA", "PA", "MJ"]
+        },
+        {
+          "name": "Studio 4",
+          "id": "ID622001",
+          "stream": ["A"],
+          "lecturer": ["FA", "PA", "MJ"]
+        },
+        {
+          "name": "Databases 2",
+          "id": "ID605001",
+          "stream": ["A"],
+          "lecturer": ["KW"]
+        },
+        {
+          "name": "Introductory App Dev",
+          "id": "ID607001",
+          "stream": ["A"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Intermediate App Dev",
+          "id": "ID608001",
+          "stream": ["A"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Operations Engineering 1",
+          "id": "ID609001",
+          "stream": ["A"],
+          "lecturer": ["OA"]
+        },
+        {
+          "name": "Switching, Routing & Wireless",
+          "id": "ID615008",
+          "stream": ["A"],
+          "lecturer": ["MH"]
+        },
+        {
+          "name": "Operating Systems Concepts",
+          "id": "ID616001",
+          "stream": ["A"],
+          "lecturer": ["HB"]
+        },
+        {
+          "name": "Embedded Systems",
+          "id": "ID620001",
+          "stream": ["A"],
+          "lecturer": ["VM"]
+        },
+        {
+          "name": "Intro to Algorithmic Problem Solving",
+          "id": "ID623001",
+          "stream": ["A"],
+          "lecturer": ["AM"]
+        },
+        {
+          "name": "Adv Design Techniques 1",
+          "id": "DK633101",
+          "stream": ["A"],
+          "lecturer": []
+        },
+        {
+          "name": "Adv Design Techniques 2",
+          "id": "DK633201",
+          "stream": ["A"],
+          "lecturer": []
+        },
+        {
+          "name": "Special Topic 1",
+          "id": "ID630151",
+          "stream": ["A"],
+          "lecturer": []
+        },
+        {
+          "name": "Studio 5",
+          "id": "ID728001",
+          "stream": ["A"],
+          "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
+        },
+        {
+          "name": "Studio 6",
+          "id": "ID732001",
+          "stream": ["A"],
+          "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
+        },
+        {
+          "name": "Databases 3",
+          "id": "ID705001",
+          "stream": ["A"],
+          "lecturer": ["KW"]
+        },
+        {
+          "name": "Advanced Networking",
+          "id": "ID723001",
+          "stream": ["A"],
+          "lecturer": ["MH"]
+        },
+        {
+          "name": "Artificial Intelligence & Data Science",
+          "id": "ID727001",
+          "stream": ["A"],
+          "lecturer": ["DR"]
+        },
+        {
+          "name": "Advanced Application Development",
+          "id": "ID730001",
+          "stream": ["A"],
+          "lecturer": ["MJ"]
+        },
+        {
+          "name": "Game Development",
+          "id": "ID737001",
+          "stream": ["A"],
+          "lecturer": ["AM", "GO"]
+        },
+        {
+          "name": "Operations Engineering 2",
+          "id": "ID734001",
+          "stream": ["A"],
+          "lecturer": ["TC", "OA"]
+        },
+        {
+          "name": "Special Topic 2",
+          "id": "ID730151",
+          "stream": ["A"],
+          "lecturer": []
         }
-      },
-      "two": {
-        "cohort": {
-          "Studio 1": {
-            "id": "ID502001",
-            "stream": ["J"],
-            "lecturer": ["EA", "VM", "OA"]
-          },
-          "Studio 2": {
-            "id": "ID503001",
-            "stream": ["A", "B"],
-            "lecturer": ["EA", "VM", "OA"]
-          },
-          "Programming 1": {
-            "id": "ID510001",
-            "stream": ["J"],
-            "lecturer": ["KW"]
-          },
-          "Programming 2": {
-            "id": "ID511001",
-            "stream": ["A", "B"],
-            "lecturer": ["GO"]
-          },
-          "Devices and Platforms": {
-            "id": "ID520003",
-            "stream": ["J"],
-            "lecturer": ["PA"]
-          },
-          "Maths for IT": {
-            "id": "ID521001",
-            "stream": ["J"],
-            "lecturer": ["HB"]
-          },
-          "Fundamentals of Web Development": {
-            "id": "ID512002",
-            "stream": ["A", "B"],
-            "lecturer": ["AM"]
-          },
-          "Introduction to Networks": {
-            "id": "ID515001",
-            "stream": ["A", "B"],
-            "lecturer": ["MH"]
-          },
-          "Studio 3": {
-            "id": "ID606001",
-            "stream": ["A"],
-            "lecturer": ["FA", "PA", "MJ", "HB"]
-          },
-          "Studio 4": {
-            "id": "ID622001",
-            "stream": ["A"],
-            "lecturer": ["FA", "PA", "MJ", "HB"]
-          },
-          "Databases 2": {
-            "id": "ID605001",
-            "stream": ["A"],
-            "lecturer": ["KW"]
-          },
-          "Introductory App Dev": {
-            "id": "ID607001",
-            "stream": ["A"],
-            "lecturer": ["GO"]
-          },
-          "Intermediate App Dev": {
-            "id": "ID608001",
-            "stream": ["A"],
-            "lecturer": ["GO"]
-          },
-          "Operations Engineering 1": {
-            "id": "ID609001",
-            "stream": ["A"],
-            "lecturer": ["OA"]
-          },
-          "Switching, Routing & Wireless": {
-            "id": "ID615008",
-            "stream": ["A"],
-            "lecturer": ["MH"]
-          },
-          "Operating Systems Concepts": {
-            "id": "ID616001",
-            "stream": ["A"],
-            "lecturer": ["HB"]
-          },
-          "Automation and Robotics": {
-            "id": "ID621001",
-            "stream": ["A"],
-            "lecturer": ["VM"]
-          },
-          "Special Topic 1": {
-            "id": "ID630151",
-            "stream": ["A"],
-            "lecturer": []
-          },
-          "Studio 5": {
-            "id": "ID728001",
-            "stream": ["A"],
-            "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
-          },
-          "Studio 6": {
-            "id": "ID732001",
-            "stream": ["A"],
-            "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
-          },
-          "Databases 3": {
-            "id": "ID705001",
-            "stream": ["A"],
-            "lecturer": ["KW"]
-          },
-          "Advanced Algorithms": {
-            "id": "ID711002",
-            "stream": ["A"],
-            "lecturer": ["DR"]
-          },
-          "Virtual Infrastructure Administration": {
-            "id": "ID720001",
-            "stream": ["A"],
-            "lecturer": ["TC"]
-          },
-          "Mobile Application Development": {
-            "id": "ID721001",
-            "stream": ["A"],
-            "lecturer": ["GO"]
-          },
-          "Security": {
-            "id": "ID724001",
-            "stream": ["A"],
-            "lecturer": ["OA"]
-          },
-          "UX Engineering": {
-            "id": "ID729002",
-            "stream": ["A"],
-            "lecturer": ["EA"]
-          },
-          "Quality Assurance & Testing": {
-            "id": "ID733001",
-            "stream": ["A"],
-            "lecturer": ["PA"]
-          },
-          "Special Topic 2": {
-            "id": "ID730151",
-            "stream": ["A"],
-            "lecturer": []
-          }
+      ]
+    },
+    "two": {
+      "cohort": [
+        {
+          "name": "Studio 1",
+          "id": "ID502001",
+          "stream": ["J"],
+          "lecturer": ["EA", "VM", "OA"]
+        },
+        {
+          "name": "Studio 2",
+          "id": "ID503001",
+          "stream": ["A", "B"],
+          "lecturer": ["EA", "VM", "OA"]
+        },
+        {
+          "name": "Programming 1",
+          "id": "ID510001",
+          "stream": ["J"],
+          "lecturer": ["KW"]
+        },
+        {
+          "name": "Programming 2",
+          "id": "ID511001",
+          "stream": ["A", "B"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Devices and Platforms",
+          "id": "ID520003",
+          "stream": ["J"],
+          "lecturer": ["PA"]
+        },
+        {
+          "name": "Maths for IT",
+          "id": "ID521001",
+          "stream": ["J"],
+          "lecturer": ["HB"]
+        },
+        {
+          "name": "Fundamentals of Web Development",
+          "id": "ID512002",
+          "stream": ["A", "B"],
+          "lecturer": ["AM"]
+        },
+        {
+          "name": "Introduction to Networks",
+          "id": "ID515001",
+          "stream": ["A", "B"],
+          "lecturer": ["MH"]
+        },
+        {
+          "name": "Studio 3",
+          "id": "ID606001",
+          "stream": ["A"],
+          "lecturer": ["FA", "PA", "MJ", "HB"]
+        },
+        {
+          "name": "Studio 4",
+          "id": "ID622001",
+          "stream": ["A"],
+          "lecturer": ["FA", "PA", "MJ", "HB"]
+        },
+        {
+          "name": "Databases 2",
+          "id": "ID605001",
+          "stream": ["A"],
+          "lecturer": ["KW"]
+        },
+        {
+          "name": "Introductory App Dev",
+          "id": "ID607001",
+          "stream": ["A"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Intermediate App Dev",
+          "id": "ID608001",
+          "stream": ["A"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Operations Engineering 1",
+          "id": "ID609001",
+          "stream": ["A"],
+          "lecturer": ["OA"]
+        },
+        {
+          "name": "Switching, Routing & Wireless",
+          "id": "ID615008",
+          "stream": ["A"],
+          "lecturer": ["MH"]
+        },
+        {
+          "name": "Operating Systems Concepts",
+          "id": "ID616001",
+          "stream": ["A"],
+          "lecturer": ["HB"]
+        },
+        {
+          "name": "Automation and Robotics",
+          "id": "ID621001",
+          "stream": ["A"],
+          "lecturer": ["VM"]
+        },
+        {
+          "name": "Special Topic 1",
+          "id": "ID630151",
+          "stream": ["A"],
+          "lecturer": []
+        },
+        {
+          "name": "Studio 5",
+          "id": "ID728001",
+          "stream": ["A"],
+          "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
+        },
+        {
+          "name": "Studio 6",
+          "id": "ID732001",
+          "stream": ["A"],
+          "lecturer": ["AM", "EA", "DR", "VM", "HB", "OA"]
+        },
+        {
+          "name": "Databases 3",
+          "id": "ID705001",
+          "stream": ["A"],
+          "lecturer": ["KW"]
+        },
+        {
+          "name": "Advanced Algorithms",
+          "id": "ID711002",
+          "stream": ["A"],
+          "lecturer": ["DR"]
+        },
+        {
+          "name": "Virtual Infrastructure Administration",
+          "id": "ID720001",
+          "stream": ["A"],
+          "lecturer": ["TC"]
+        },
+        {
+          "name": "Mobile Application Development",
+          "id": "ID721001",
+          "stream": ["A"],
+          "lecturer": ["GO"]
+        },
+        {
+          "name": "Security",
+          "id": "ID724001",
+          "stream": ["A"],
+          "lecturer": ["OA"]
+        },
+        {
+          "name": "UX Engineering",
+          "id": "ID729002",
+          "stream": ["A"],
+          "lecturer": ["EA"]
+        },
+        {
+          "name": "Quality Assurance & Testing",
+          "id": "ID733001",
+          "stream": ["A"],
+          "lecturer": ["PA"]
+        },
+        {
+          "name": "Special Topic 2",
+          "id": "ID730151",
+          "stream": ["A"],
+          "lecturer": []
         }
-      }
+      ]
     }
-  ]
+  }
 }
