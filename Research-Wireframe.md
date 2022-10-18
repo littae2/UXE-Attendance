@@ -1,0 +1,1 @@
+![Wireframe](https://raw.githubusercontent.com/littae2/UXE-Attendance/main/wireframe.jpg)
