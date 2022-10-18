@@ -1,5 +1,8 @@
 <script>
   import Cohorts from '../assets/timetable.json'
+  import Students from './cohort-students.svelte'
+import {cohorts} from "../assets/cohorts.js"
+
   let today = new Date()
   let month = today.getMonth()
   var cohortArr
@@ -32,4 +35,11 @@
     {/if}
   {/each}
 </div>
+<div>
+  {#each cohorts as c}
+  {#if c[0].cohort[0].name ==selCohort && c[0].cohort[0].stream ==selStream}
+  <Students cohort={c[0]}/>
+  {/if}
+  {/each}
 
+  </div>
